@@ -434,13 +434,12 @@ footer .pr {
 .contents_wrap ul li {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	position: relative;
 	width: 80%;
 	height: 350px;
 	margin: 0 auto 150px auto;
 	background-color: white;
-	align-items: center;
+	align-items: flex-start;
 }
 
 
@@ -464,15 +463,20 @@ footer .pr {
 }
 
 
-img {
+.contents_wrap ul li img {
+	margin-top: 30px;
 	max-width: 100%;
 	height: auto;
 	border: 1px solid black;
 }
 
+.contents_wrap h3 {
+	border: none !important;
+}
+
 figure {
 	display: block;
-	width: 700px;
+	width: 600px;
 	height: 200px;
 
 }
