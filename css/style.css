@@ -439,7 +439,7 @@ footer .pr {
 	height: 350px;
 	margin: 0 auto 150px auto;
 	background-color: white;
-	align-items: flex-start;
+	align-items: center;
 }
 
 
@@ -464,10 +464,10 @@ footer .pr {
 
 
 .contents_wrap ul li img {
-	margin-top: 30px;
 	max-width: 100%;
 	height: auto;
 	border: 1px solid black;
+
 }
 
 .contents_wrap h3 {
@@ -479,4 +479,9 @@ figure {
 	width: 600px;
 	height: 200px;
 
+}
+
+h3 {
+	text-align: center;
+	color: black;
 }
