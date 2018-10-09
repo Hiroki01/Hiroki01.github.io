@@ -20,6 +20,7 @@ body {
 	/*行間*/
 	background: #f7f5e2;
 	/*背景色*/
+
 }
 
 h1,
@@ -67,6 +68,7 @@ table {
 
 iframe {
 	width: 100%;
+
 }
 
 /*リンク（全般）設定
@@ -81,15 +83,19 @@ a {
 a:hover {
 	color: #799a3a;
 	/*マウスオン時の文字色*/
+
+  
 }
 
 /*コンテナー（ホームページを囲む一番外側のブロック）
 ---------------------------------------------------------------------------*/
 #container {
+
 	max-width: 1400px;
 	/*最大幅*/
 	margin: 50px 50px 0;
 	/*上、左右、下に空けるブロックの外側へのスペース*/
+
 }
 
 /*ヘッダー（ロゴが入った最上段のブロック）
@@ -99,10 +105,12 @@ header {
 	position: relative;
 	text-align: center;
 	/*内容を中央よせ*/
+
 }
 
 /*ロゴ画像設定*/
 #logo img {
+
 	width: 35%;
 	/*画像幅*/
 	margin-bottom: 40px;
@@ -118,6 +126,7 @@ header {
 	/*headerブロックに対して上から40%の場所に配置*/
 	z-index: 1;
 	font-size: 550%;
+
 }
 
 /*トップページのメイン画像
@@ -130,6 +139,7 @@ header {
 	/*影の設定。右へ、左へ、広げる幅。0,0,0は黒のことで0.2は透明度20%のこと。*/
 	border-radius: 10px;
 	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
+
 }
 
 /*メニュー
@@ -142,6 +152,7 @@ header {
 	/*文字サイズ*/
 	margin-bottom: 40px;
 	/*メニューの下に空けるスペース*/
+
 }
 
 /*メニュー１個あたりの設定*/
@@ -154,6 +165,7 @@ header {
 	text-decoration: none;
 	padding: 15px 30px;
 	/*各メニュー内の余白。上下に15px、左右に30pxあけるという意味。*/
+
 }
 
 /*マウスオン時、現在表示中、の設定*/
@@ -163,6 +175,7 @@ header {
 	/*文字色*/
 	border-bottom: 4px solid #799a3a;
 	/*下線の幅、線種、色*/
+
 }
 
 /*コンテンツ（見出しバーや文字などが入っているブロック）
@@ -177,6 +190,7 @@ header {
 	/*背景色*/
 	border-radius: 10px;
 	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
+
 }
 
 /*コンテンツのh3タグの設定*/
@@ -191,17 +205,22 @@ header {
 	/*枠線の幅、線種、色*/
 	border-radius: 10px;
 	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
+
 }
 
 /*コンテンツのp(段落)タグ設定*/
 #contents p {
-	padding: 0px 20px 14px;
-	/*上、左右、下への余白*/
+    padding: 0px 20px 14px;
+    /*上、左右、下への余白*/
 }
 
-#contents h2+p,
-#contents h3+p {
-	margin-top: -5px;
+#contents h2 + p,
+#contents h3 + p {
+    margin-top: -5px;
+}
+
+#as {
+    padding: 0 auto 20px auto;
 }
 
 /*Galleryページ
@@ -213,12 +232,14 @@ header {
 	/*下線の幅、線種、色*/
 	padding: 20px;
 	/*ボックス内の余白*/
+
 }
 
 /*h4見出しの設定*/
 .list h4 {
 	color: #799a3a;
 	/*文字色*/
+
 }
 
 /*画像の設定*/
@@ -229,11 +250,12 @@ header {
 	/*画像を左に回り込み*/
 	margin-right: 3%
 		/*画像の右側に空けるスペース*/
+
 }
 
 /*段落タグ*/
 .list p {
-	padding: 0 !important;
+    padding: 0 !important;
 }
 
 /*フッター(ページ最下部のcopyrightのパーツ)設定
@@ -244,23 +266,24 @@ footer {
 	/*文字をセンタリング*/
 	padding: 50px 0px 0px;
 	/*上、左右、下へのボックス内の余白*/
+
 }
 
 footer a {
-	text-decoration: none;
-	border: none;
+    text-decoration: none;
+    border: none;
 }
 
 footer .pr {
-	display: block;
+    display: block;
 }
 
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 /*ブロック全体の設定*/
 #new dl {
-	padding-left: 20px;
-	margin-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 15px;
 }
 
 /*日付設定*/
@@ -269,19 +292,20 @@ footer .pr {
 	/*太字にする設定。標準がいいならこの行削除。*/
 	float: left;
 	width: 8em;
+
 }
 
 /*記事設定*/
 #new dd {
-	padding-left: 8em;
+    padding-left: 8em;
 }
 
 /*テーブル
 ---------------------------------------------------------------------------*/
 /*tテーブルブロック設定*/
 .ta1 {
-	width: 100%;
-	margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .ta1,
@@ -292,6 +316,7 @@ footer .pr {
 	/*テーブルの枠線の幅、線種、色*/
 	padding: 10px;
 	/*テーブル内の余白*/
+
 }
 
 /*テーブル１行目に入った見出し部分*/
@@ -301,6 +326,7 @@ footer .pr {
 	/*左よせ*/
 	background: #eee;
 	/*背景色*/
+
 }
 
 /*テーブルの左側ボックス*/
@@ -309,6 +335,7 @@ footer .pr {
 	/*幅*/
 	text-align: center;
 	/*センタリング*/
+
 }
 
 /*その他
@@ -317,6 +344,7 @@ footer .pr {
 	background: #e5e5e5;
 	padding: 5px 10px;
 	border-radius: 4px;
+
 }
 
 .mb15,
@@ -344,6 +372,7 @@ footer .pr {
 		margin: 20px 20px 0;
 		/*上、左右、下に空けるブロックの外側へのスペース*/
 	}
+
 
 }
 
@@ -474,6 +503,7 @@ footer .pr {
 .contents_wrap h3 {
 	border: none !important;
 }
+
 
 figure {
 	display: block;

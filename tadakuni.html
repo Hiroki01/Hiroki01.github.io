@@ -58,92 +58,82 @@
                         <p><span class="color1"><strong>OSSでのIssues活用事例</strong></span></p>
                     </li>
                 </ul>
-                <h3>課題管理機能「Issues」とは</h3>
+                <h3><strong>課題管理機能「Issues」とは</strong></h3>
                 <p><span class="color1"><strong>「Issue」は、日本語訳すると「問題」や「課題」という意味があります。<br>
                             GitHubのIssues機能もその通り、プロジェクトやソースコードの課題を管理するための機能です。</strong></span><br>
                     Issuesでプロジェクト管理をしているという事例は数多くあります。<br>
                     その理由が、情報の一元化です。<br>
                     GitHub Issuesなら、ソースコードやPull Request、変更履歴といったものを、簡単に課題と紐付けて管理していくことが可能です。情報が一箇所に集まることで、ソースコードの変更意図や現在の問題が、より明瞭になります。<br><br>
-                    プロジェクトの課題管理といえば、古くから使われているチケット型のRedmineや、最近ではPivotal Tracker、JIRAといったサービスも注目を集めています。GitHub Issuesはそれらのサービスと比較すると機能は控えめですが、それでもIssuesでプロジェクト管理をしているという事例は数多くあります。<br>
+                    プロジェクトの課題管理といえば、古くから使われているチケット型の<span class="color1"><strong>Redmine</strong></span>や、最近では<span class="color1"><strong>Pivotal Tracker、JIRA</strong></span>といったサービスも注目を集めています。GitHub Issuesはそれらのサービスと比較すると機能は控えめですが、それでもIssuesでプロジェクト管理をしているという事例は数多くあります。<br>
 
                     その理由の一つが、情報の一元化です。GitHub Issuesなら、ソースコードやPull Request、変更履歴といったものを、簡単に課題と紐付けて管理していくことが可能です。情報が一箇所に集まることで、ソースコードの変更意図や現在の問題が、より明瞭になります。<br><br>
 
                     それでは、実際の使い方を見ていきましょう。</p>
 
-                <h3>Issuesを使ってみる</h3>
+                <h3><strong>Issuesを使ってみる</strong></h3>
                 <p>Issues機能は、リポジトリ単位に管理されています。リポジトリのトップページから[Issues]タブを選択し、[New issue]をクリックしましょう。</p>
 
-                <img>
+                <img src="./images/github/issue.PNG" alt="">
 
                 <p>Issueにはタイトルとコメントを入力します。他にも設定できる項目はありますが、それは別の機会に紹介します。<br>
-                    タイトルは課題の内容(〜の機能が欲しい、〜という問題がある)を端的に表現して、コメントの部分で仕様やバグの再現手順などを詳細に書いていくといいです(スクリーンショットはダメな例です)。<br><br>
+                    タイトルは課題の内容(〜の機能が欲しい、〜という問題がある)を端的に表現して、<span class="color1">
+                        <strong>コメントの部分で仕様やバグの再現手順などを詳細に書いていく</strong>
+                    </span>といいです(スクリーンショットはダメな例です)。<br><br>
                 </p>
 
-                <img>
+                <img src="./images/github/issue2.PNG" alt="">
 
                 <p>
                     [Submit new Issue]をクリックするとIssueの登録が完了します。あとはこのリポジトリにアクセス権限のある人なら、誰でもIssueに対してコメントができるはずです。<br><br>
 
-                    先ほどGitHubに情報を一元管理するメリットがあると説明しましたが、他のIssueやPull Request(PR)といい感じにリンクしてくれる機能があります。コメント中にIssue/PRのURLがある場合は短縮して表示され、他のIssue/PRからリンクされたときはタイムライン（？）に表示されます。<br>
+                    先ほど<strong>GitHubに情報を一元管理するメリット</strong>があると説明しましたが、他のIssueやPull Request(PR)といい感じにリンクしてくれる機能があります。コメント中にIssue/PRのURLがある場合は短縮して表示され、他のIssue/PRからリンクされたときはタイムライン（？）に表示されます。<br>
                 </p>
 
-                <img>
+                <img src="./images/github/issue3.PNG" alt="">
 
                 <p>Issueが解決したら[Close issue]ボタンをクリックしてクローズしましょう。<br>
                     クローズしたIssueも、完全に消える訳ではなく、Issueの一覧から確認できます。安心してクローズしましょう。</p>
 
-                <img>
+                <img src="./images/github/issue4.PNG" alt="">
 
-                <h3>担当者を明確にする「Assignee」機能</h3>
-                <p>ここからはちょっとした応用編の機能を紹介します。まずはプロジェクト管理には必須のAssignee（アサイニー）。Issueに担当者を割り当てる機能です。Issue画面のサイドバーにある[Assignee]という文字をクリックすると、ユーザーの選択画面が出てきます。</p>
+                <h3><strong>担当者を明確にする「Assignee」機能</strong></h3>
+                <p>ここからはちょっとした応用編の機能を紹介します。まずはプロジェクト管理には必須の<span class="color1"><strong>Assignee（アサイニー）。</strong></span>Issueに担当者を割り当てる機能です。Issue画面のサイドバーにある[Assignee]という文字をクリックすると、ユーザーの選択画面が出てきます。</p>
 
-                <img>
+                <img src="./images/github/issue9.PNG" alt="">
 
                 <p>Assigneeはもちろん途中で付け替えることもできます。そしてIssueの一覧画面ではアイコンが並ぶので、誰がどのくらいのタスクを抱えているかが一目で分かるようになります。
                     <br><br>
                     Assigneeに指定することで、通知も逃さず受け取ることができます。ただ、1つのIssueに対して1人しかアサインできないという難点もあります。しっかりとルールを決めて運用していきましょう。</p>
-                <h3>スケジュールを管理する「Milestone」機能</h3>
-
+                <h3><strong>スケジュールを管理する「Milestone」機能</strong></h3>
                 <p>
-                    こちらもプロジェクト管理には必須の、Issueに締め切りをつけるMilestone（マイルストン）機能です。GitHubでは、Issueごとに期日を切るのではなく、マイルストンを先に置いて、それにIssueを紐付けます。詳しく見ていきましょう。<br><br>
-
+                    こちらもプロジェクト管理には必須の、Issueに締め切りをつける<span class="color1"><strong>Milestone（マイルストン）</strong></span>機能です。
+                    GitHubでは、<strong>Issueごとに期日を切るのではなく、マイルストンを先に置いて、それにIssueを紐付けます。</strong>詳しく見ていきましょう。
                     まずはIssueの一覧画面からマイルストンの一覧画面に遷移します。そこから[New milestone]で新しいマイルストンを作成します。
-
                 </p>
 
-                <img>
+                <img src="./images/github/issue4.PNG" alt="">
 
-                <p>Assigneeはもちろん途中で付け替えることもできます。そしてIssueの一覧画面ではアイコンが並ぶので、誰がどのくらいのタスクを抱えているかが一目で分かるようになります。
-                    <br><br>
-                    Assigneeに指定することで、通知も逃さず受け取ることができます。ただ、1つのIssueに対して1人しかアサインできないという難点もあります。しっかりとルールを決めて運用していきましょう。</p>
+                <p>
+                    マイルストンの設定画面ではタイトル、概要、期日を入力します。タイトルの付け方はチームごとに分かりやすいように定めると良いですね。[Create milestone]をクリックすると作成完了です。
+                </p>
+                <img src="./images/github/issue5.PNG" alt="">
 
-                <h3>スケジュールを管理する「Milestone」機能</h3>
-                <p>こちらもプロジェクト管理には必須の、Issueに締め切りをつけるMilestone（マイルストン）機能です。GitHubでは、Issueごとに期日を切るのではなく、マイルストンを先に置いて、それにIssueを紐付けます。詳しく見ていきましょう。<br><br>
+                <p>マイルストンもAssigneeと同様、Issue画面のサイドバーから設定できます。Milestoneの一覧画面では、<strong>紐付けられたIssueの内、何%がクローズされたか</strong>という進捗が確認できます。マイルストンを先に設定し、そこに必要なIssueを紐付けていく、という仕組みになっていることが分かりますね。
+                </p>
+                <img src="./images/github/issue6.PNG" alt="">
 
-                    まずはIssueの一覧画面からマイルストンの一覧画面に遷移します。そこから[New milestone]で新しいマイルストンを作成します。</p>
+                <h3><strong>増えたIssueを整理する「Label」機能</strong></h3>
+                <p>最後に、ちょっと便利な<span class="color1"><strong>Label（ラベル）機能</strong></span>です。その名の通りIssueにラベルを付けて分類できます。Issues一覧からラベル一覧を確認できますが、デフォルトでも<span class="color1"><strong>bugやduplicate(重複したIssue)</strong></span>など、結構な数のラベルが揃っています。</p>
 
-                <img>
-
-                <p>マイルストンの設定画面ではタイトル、概要、期日を入力します。タイトルの付け方はチームごとに分かりやすいように定めると良いですね。[Create milestone]をクリックすると作成完了です。</p>
-
-                <img>
-
-                <p>マイルストンもAssigneeと同様、Issue画面のサイドバーから設定できます。Milestoneの一覧画面では、紐付けられたIssueの内、何%がクローズされたかという進捗が確認できます。マイルストンを先に設定し、そこに必要なIssueを紐付けていく、という仕組みになっていることが分かります。</p>
-
-                <img>
-
-                <h3>増えたIssueを整理する「Label」機能</h3>
-                <p>最後に、ちょっと便利なLabel（ラベル）機能です。その名の通りIssueにラベルを付けて分類できます。Issues一覧からラベル一覧を確認できますが、デフォルトでもbugやduplicate(重複したIssueなど、結構な数のラベルが揃っています。</p>
-
-                <img>
+                <img src="images/github/issue7.PNG" alt="">
 
                 <p>まずはデフォルトのラベルで運用してみて、足りないようであれば追加していくのがいいでしょう。ラベルは1つのIssueに複数つけることができます。任意の色で表示できるので、一覧画面での視認性が増しますね。もちろんラベルでフィルタリングすることも出来ます。</p>
 
-                <img>
+                <img src="images/github/issue8.PNG" alt="">
 
                 <p>以上でIssueの活用方法は終わりです。どのツールを使う時も同じですが、まずはゆるやかに始めてみて、徐々にチームに合った形に運用方法を固めていくといいでしょう。</p>
 
-                <h3>OSSでのIssues活用事例</h3>
+                <h3><strong>OSSでのIssues活用事例</strong></h3>
 
                 <p>IssuesもPull Requestと同様に、OSS（オープンソースソフトウェア）の世界で活用されています。OSSを利用しているユーザーが、バグの報告や機能追加の要望を出し、Issues上でディスカッションが行われます。<br><br>
 
