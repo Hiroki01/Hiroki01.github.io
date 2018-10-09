@@ -110,13 +110,14 @@ header {
 }
 
 /*トップページのロゴ画像設定*/
-#top #logo img {
+#top #logo p {
 	position: absolute;
 	left: 5%;
 	/*headerブロックに対して左から5%の場所に配置*/
 	top: 40%;
 	/*headerブロックに対して上から40%の場所に配置*/
 	z-index: 1;
+	font-size: 550%;
 }
 
 /*トップページのメイン画像
