@@ -5,6 +5,8 @@ Issues
 
 GithubPage
 
+pull requestの仕方
+
 # 実装できなかった課題のタイトル
 githubのpull requestでLabelや Assigneeの使い方
 
