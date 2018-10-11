@@ -1,13 +1,13 @@
-# タイトル
+####　タイトル
 Hiroki01.github.io
-# 課題の実装できた課題タイトル
+#### 課題の実装できた課題タイトル
 Issues
 
 GithubPage
 
 pull requestの仕方
 
-# 実装できなかった課題のタイトル
+#### 実装できなかった課題のタイトル
 githubのpull requestでLabelや Assigneeの使い方
 
   github のGistの使い方について
@@ -24,7 +24,7 @@ githubのpull requestでLabelや Assigneeの使い方
   
   github のemoticonやLTTMについて
   
-# 課題の実装するにあたって、起こった障害や苦労したこと
+#### 課題の実装するにあたって、起こった障害や苦労したこと
 後日
-# 各メンバーのgit・githubの理解度を全メンバーで相互評価
+#### 各メンバーのgit・githubの理解度を全メンバーで相互評価
 後日
