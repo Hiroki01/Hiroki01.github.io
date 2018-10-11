@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>pull requestについて</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GitHubについて">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/openclose.js"></script>
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body id="top">
+
+    <div id="container">
+
+        <header>
+            <h1 id="logo"><a href="index.html">
+                    <p>GitHubの使用方法</p>
+                </a></h1>
+            <p><img src="images/mainimg.jpg" alt="" id="mainimg"></p>
+        </header>
+
+        <nav id="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tadakuni.html">Issues</a></li>
+                <li><a href="githubpage.html">GithubPage</a></li>
+                <li class="current"><a href="request.html">pull request</a></li>
+            </ul>
+        </nav>
+
+
+        <div id="contents">
+
+            <section>
+
+                <h2>pull requestについて</h2>
+                <h3>リポジトリを作成または、cloneする。<br>
+                    Github上のレポジトリからローカルにclone(保存)する。</h3>
+                <p>① GithubのPullRequestをしたいページに移動する。<br>
+                    ② clone URLをコピーする<br>
+                    <img src="images/pull/pull1.png">
+                    ③ ターミナルからcloneを実行する<br>
+                    git clone　{コピーしたURL}</p>
+                <h3>Pull Request用のBranchを作成する</h3>
+                <p>①cloneしたディレクトリに移動する<br>
+                    cd pullreq<br>
+                    ②developという名前のBranchを作成する<br>
+                    git checkout -b develop</p>
+                <h3>Cloneしたディレクトリを編集する</h3>
+                <p>① 現在のフォルダをFinderで表示<br>
+                    open .<br>
+                    ②ファイルの編集<br>
+                    略</p>
+                <h3>ローカルでadd⇒commit、Githubへpushする</h3>
+                <p>①編集ファイルをステージングに移す<br>
+                    git add .<br>
+                    ②編集ファイルをcommitする<br>
+                    git commit -m "update README"<br>
+                    ③developブランチからGithub上のoriginブランチにpushする<br>
+                    git push origin develop<br></p>
+                <h3>Github上でPullRequestする</h3>
+                <p>①右上の緑色のCompare & pull requestボタンをクリック<br>
+                    <img src="images/pull/pull2.png">
+                    ②どういった変更を加えたのかを説明する内容を記入<br>
+                    <img src="images/pull/pull3.png">
+                    ③どのブランチからどのブランチにpull requestするかを確認する<br>
+                    ※developブランチからmasterブランチへのpull request<br>
+                    ④「Create pull request」ボタンを押して、Pull Requestを作成</p>
+                <h3>Github上でMergeする</h3>
+                <p><strong>※この作業は、本来、自分以外のレポジトリ管理者がコードを確認して実行される</strong><br>
+                    ①左下の緑色の[Merge pull request]ボタンを押して、Mergeを実行する</p>
+                <img src="images/pull/pull4.png">
+                <p>以上</p>
+
+            </section>
+
+        </div>
+        <!--/contents-->
+
+        <footer>
+            <small>Copyright&copy; <a href="index.html">SAMPLE SITE</a> All Rights Reserved.</small>
+            <span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+        </footer>
+
+    </div>
+    <!--/container-->
+
+    <!--スマホ用更新情報　480px以下-->
+    <script type="text/javascript">
+        if (OCwindowWidth() <= 480) {
+            open_close("newinfo_hdr", "newinfo");
+        }
+
+    </script>
+
+</body>
+
+</html>
