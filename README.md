@@ -1,7 +1,10 @@
 # タイトル
 Hiroki01.github.io
 # 課題の実装できた課題タイトル
-Issues、GithubPage
+Issues
+
+GithubPage
+
 # 実装できなかった課題のタイトル
 githubのpull requestでLabelや Assigneeの使い方
 
